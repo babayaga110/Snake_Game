@@ -47,7 +47,9 @@ p{
 #message{
     display: grid;
     place-content: center;
-    font-size: 5rem;}
+    font-size: 3rem;
+    margin: 0 auto;
+    padding: 0 1em ;}
 /*-------------
     Section  
 ---------------*/
@@ -78,7 +80,7 @@ p{
 #overlay{
     display: none;
     position: absolute;
-    width: 50%;
+    min-width: 400px;
     height: 70%;
     margin: 0 auto;
     top: 55%;

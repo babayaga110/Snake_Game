@@ -86,14 +86,13 @@ function move() {
         timerId = setInterval(move, intervalTime)
     }
     
-    
-    
     squares[currentSnake[0]].classList.add('snake')
 }
 
 function snakeHitthewalls(){
-    document.getElementById('overlay').style.display = 'block'
-    displayMessage.textContent = `WoW! 🎉 Your High Score ${score} `
+    document.getElementById('overlay').style.display = 'flex'
+    displayMessage.textContent = `WoW! 🎉 
+    Your High Score ${score} `
     clearInterval(timerId) 
 }
 
